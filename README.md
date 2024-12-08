@@ -1,5 +1,5 @@
 # SAT-Tools
-Generate SAT (boolean satisfiability problem) formulas.
+Generate and solve SAT (boolean satisfiability problem) formulas.
 
 This script generates a SAT problem in CNF format. 
 The CNF is generated with a given alphabet, number of clauses, and number of literals per clause. 
