@@ -35,7 +35,7 @@ def generateCNF(alphabet, k, n = 3, exactNOrMaxN = True):
     cnf = []
     for _ in range(k):
         clause = generateClause(alphabet, n, exactNOrMaxN)
-        clause.sort()
+        clause.sort(key=lambda x: x[1:] if x[0] == "-" else x)
         cnf.append(clause)
     return cnf
 
