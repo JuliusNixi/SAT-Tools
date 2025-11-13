@@ -56,3 +56,6 @@ UNSAT: <br>
 -1 -2 3 <br>
 Solution: <br>
 None <br>
+
+## Example of use
+The file unsatgen.py contains an example of how to use sat_tools.
