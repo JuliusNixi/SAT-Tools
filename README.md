@@ -12,41 +12,41 @@ The algorithm returns the assignments that satisfy the CNF.
 THIS IS A BRUTE FORCE IMPLEMENTATION. IT IS NOT EFFICIENT FOR LARGE CNF.
 HAS BEEN MADE ONLY FOR DEMONSTRATION PURPOSES.
 
-Examples:<br>
-          
-Alphabet: abcdefghijklmnopqrstuvwxyz<br>
-Number of clauses: 3.<br>
-Number of literals per clause: MAX 4.<br>
-CNF:
--a
-h x
--s 
+Examples: <br>
+<br>
+Alphabet: abcdefghijklmnopqrstuvwxyz <br>
+Number of clauses: 3. <br>
+Number of literals per clause: MAX 4. <br>
+CNF: <br>
+-a <br>
+h x <br>
+-s <br>
 
------------- 
+------------ <br>
 
-Alphabet: 1234567890
-Number of clauses: 2.
-Number of literals per clause: EXACT 3.
-CNF:
-1 2 4
--4 9 -9 
+Alphabet: 1234567890 <br>
+Number of clauses: 2. <br>
+Number of literals per clause: EXACT 3. <br>
+CNF: <br>
+1 2 4 <br>
+-4 9 -9 <br>
 
------------- 
+------------ <br>
 
-Testing solving a SAT CNF problem.
-Alphabet: 1234567890
-SAT:
--0 1 -7
-2 -4 5 
+Testing solving a SAT CNF problem. <br>
+Alphabet: 1234567890 <br>
+SAT: <br>
+-0 1 -7 <br>
+2 -4 5 <br>
+<br>
+Solution: <br>
+{'0': 0, '1': 1, '7': 1, '2': 1, '5': 1, '4': 1} <br>
 
-Solution:
-{'0': 0, '1': 1, '7': 1, '2': 1, '5': 1, '4': 1} 
+------------ <br>
 
------------- 
-
-Testing solving an UNSAT CNF problem.
-Alphabet: 123
-UNSAT:
+Testing solving an UNSAT CNF problem. <br>
+Alphabet: 123 <br>
+UNSAT: <br>
 1 2 3
 1 2 -3
 1 -2 3
@@ -55,6 +55,6 @@ UNSAT:
 -1 2 3
 -1 -2 -3
 -1 -2 3 
-
-Solution:
-None
+<br>
+Solution: <br>
+None <br>
