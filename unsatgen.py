@@ -1,12 +1,13 @@
 import sat_tools as sat
 
 alp = "123"
+k = 16
 while True:
-    s = sat.generateCNF(alp, k=16)
+    s = sat.generateCNF(alp, k=k)
     r = sat.resolveCNF(s)
     if r is None:
-        print("No solution")
+        print(f"Generated an UNSAT instance with {k} clauses:")
         print(sat.stringifyCNF(s))
-        print(r)
+        print("Solution: " + str(r))
         break
 
