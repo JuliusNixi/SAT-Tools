@@ -46,13 +46,13 @@ Solution: <br>
 Testing solving an UNSAT CNF problem. <br>
 Alphabet: 123 <br>
 UNSAT: <br>
-1 2 3
-1 2 -3
-1 -2 3
-1 -2 -3
--1 2 -3
--1 2 3
--1 -2 -3
--1 -2 3 
+1 2 3 <br>
+1 2 -3 <br>
+1 -2 3 <br>
+1 -2 -3 <br>
+-1 2 -3 <br>
+-1 2 3 <br>
+-1 -2 -3 <br>
+-1 -2 3 <br>
 Solution: <br>
 None <br>
