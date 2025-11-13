@@ -38,7 +38,6 @@ Alphabet: 1234567890 <br>
 SAT: <br>
 -0 1 -7 <br>
 2 -4 5 <br>
-<br>
 Solution: <br>
 {'0': 0, '1': 1, '7': 1, '2': 1, '5': 1, '4': 1} <br>
 
@@ -55,6 +54,5 @@ UNSAT: <br>
 -1 2 3
 -1 -2 -3
 -1 -2 3 
-<br>
 Solution: <br>
 None <br>
