@@ -172,6 +172,7 @@ Examples:
 
     print("Testing solving a SAT CNF problem.")
     cnf = generateCNF(alphabet, 2)
+    print("Alphabet:", alphabet)
     print("SAT:")
     print(stringifyCNF(cnf), "\n") 
     print("Solution:")
@@ -180,7 +181,8 @@ Examples:
 
     print("------------", "\n")
 
-    print("Testing solving a UNSAT CNF problem.")
+    print("Testing solving an UNSAT CNF problem.")
+    print("Alphabet:", "123")
     unsatTest = """1 2 3
 1 2 -3
 1 -2 3
