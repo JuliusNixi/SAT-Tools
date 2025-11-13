@@ -12,11 +12,11 @@ The algorithm returns the assignments that satisfy the CNF.
 THIS IS A BRUTE FORCE IMPLEMENTATION. IT IS NOT EFFICIENT FOR LARGE CNF.
 HAS BEEN MADE ONLY FOR DEMONSTRATION PURPOSES.
 
-Examples:
+Examples:<br>
           
-Alphabet: abcdefghijklmnopqrstuvwxyz
-Number of clauses: 3.
-Number of literals per clause: MAX 4.
+Alphabet: abcdefghijklmnopqrstuvwxyz<br>
+Number of clauses: 3.<br>
+Number of literals per clause: MAX 4.<br>
 CNF:
 -a
 h x
