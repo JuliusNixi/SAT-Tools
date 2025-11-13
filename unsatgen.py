@@ -6,9 +6,10 @@ while True:
     s = sat.generateCNF(alp, k=k)
     r = sat.resolveCNF(s)
     if r is None:
-        print(f"Generated an UNSAT instance with {k} clauses:")
         print("Alphabet: " + alp)
+        print(f"Generated an UNSAT instance with {k} clauses:")
+        print("UNSAT:")
         print(sat.stringifyCNF(s))
-        print("Solution: " + str(r))
+        print("\nSolution: \n" + str(r))
         break
 
